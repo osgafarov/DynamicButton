@@ -51,4 +51,3 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     dynamicButton.setStyle(style, animated: true)
   }
 }
-
