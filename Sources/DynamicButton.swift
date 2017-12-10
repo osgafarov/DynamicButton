@@ -211,8 +211,8 @@ between each style changes.
     }
 
     let spring             = CASpringAnimation(keyPath: keyPath)
-    spring.duration        = spring.settlingDuration
-    spring.damping         = damping
+    spring.duration        = 2.5
+    spring.damping         = 23
     spring.initialVelocity = initialVelocity
     spring.stiffness       = stiffness
     spring.fillMode        = kCAFillModeForwards
